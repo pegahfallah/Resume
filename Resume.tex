@@ -1,0 +1,212 @@
+%-------------------------
+% Resume in Latex
+% Author: Pegah Fallah
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+% Packages
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+% Page setup
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\footskip}{4.08003pt}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\titlerule \vspace{-5pt}]
+
+% Ensure that generated PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textbf{\small #3} & \textbf{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\usepackage{enumitem}
+\setlist[itemize,1]{label=\textbullet, leftmargin=0.2in}
+\setlist[itemize,2]{label=\textendash, leftmargin=0.2in}
+\setlist[itemize,3]{label=$\cdot$, leftmargin=0.2in}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{center}
+{\Huge Pegah Fallah} \ \vspace{1pt}
+
+\small \href{mailto:pegahfallah@outlook.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{pegahfallah@outlook.com}} ~
+\href{https://linkedin.com/in/pegahf}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/pegahf}} ~
+\href{http://www.pegahcode.com}{\raisebox{-0.2\height}\faGlobe\ \underline{www.pegahcode.com}} ~
+\text{\small\raisebox{-0.1\height}\faPhone\ +971 58-6957278}
+\vspace{-8pt}
+\end{center}
+
+
+%-----------SKILLS-----------
+\section{Skills}
+\resumeSubHeadingListStart
+\item{
+\small
+\textbf{Programming Languages}: TypeScript, JavaScript, Python, Java, SQL, HTML/CSS, Node.js \\
+
+\textbf{Frameworks \& Libraries}: React.js, Next.js, Express.js, Redux, Three.js, Web3.js, Vue.js, Tailwind CSS \\
+
+\textbf{Backend \& Databases}: GraphQL, REST APIs, PostgreSQL, MySQL, Firebase \\
+
+\textbf{DevOps \& Cloud}: AWS (Lambda, S3, EC2), Docker, CircleCI, GitHub Actions \\
+
+\textbf{Tools \& Platforms}: Git, Jira, Confluence, Bitbucket, Trello, Agile/Scrum Methodologies \\
+
+\textbf{Advanced Tools \& Concepts}: WebSockets, JWT, OAuth, Serverless Architecture, CI/CD Pipelines, Caching
+}
+\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{York University}{June 2023}
+{BSc Computer Science}{Toronto, ON}
+\resumeItemListStart
+\resumeItem{Awards: Lassonde Scholarship (2021, 2022, 2023); IBM Changemaker Award (2023); YSpace Innovation Award (2023); Alexander Spasov Memorial Award (2021)}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+
+\section{Work Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Dubai Business Associates, Falcon \& Associates}{Sept 2024 -- Present}
+  {Strategy Consulting Associate}{Dubai, UAE}
+\resumeItemListStart
+\resumeItem{Emirates Leisure Retail/MMI}
+\begin{itemize}
+    \item{Executed CRM strategies for the MMI website and Costa Coffee loyalty app, increasing push notification and email click-through rates by 20\%.}
+    \item{Automated invoicing processes by building \textbf{Excel macros}, enabling the generation of 100 invoices in under 5 minutes.}
+    \item{Designed two \textbf{Power BI dashboards} to analyze customer spending trends and Meta campaign performance, enabling data-driven decisions.}
+    \end{itemize}
+\resumeItemListEnd
+
+\resumeSubheading
+{Deloitte}{Sept 2023 -- Sept 2024}
+{Software Developer, Product Engineering}{Toronto, ON}
+\resumeItemListStart
+\resumeItem{Developed a provincial application that consolidates 82 healthcare employee management systems into a single scalable solution.
+  \begin{itemize}
+     \item{Engineered a library of responsive and reusable components using \textbf{React, Typescript, Tailwind, and Storybook}, enhancing design consistency and saving the team 3 hours per week.}
+    \item{Generated test suites with \textbf{Jest and Enzyme}, achieving 90\% code coverage across critical components to ensure robust application performance.}
+    \item{Refined front-end by optimizing rendering with React.memo and implementing lazy loading, ensuring smooth interactions and a \textbf{94\% task completion rate} without user-reported blockers.}
+    \item{Optimized user experience and SEO by adhering to \textbf{web accessibility standards}, achieving a Task Usability Testing score of 75\%.}
+    
+  \end{itemize}
+}
+\resumeItem{Engineered a pivotal website for a federal government agency, directly benefiting 180,000+ businesses across Canada.}
+\begin{itemize}
+    \item{Automated \textbf{AWS workflows} using \textbf{Node.js}, including resource provisioning and deployment pipelines, reducing operational overhead by 30\%.}
+    \item{Developed user interfaces with \textbf{React, Redux, Javascript, Tailwind CSS, Node.js, and Webpack}, focusing on maintainability and scalability.}
+
+\end{itemize}
+\resumeItem{Utilized technical skills to author proposals, aligning solutions with client needs and helping secure a \$9 million contract.}
+
+\resumeItemListEnd
+
+\resumeSubheading
+{Meta}{May 2022 -- Aug 2022}
+{Technical Program Manager Intern - Developer Infrastructure}{Seattle, WA}
+\resumeItemListStart
+\resumeItem{Defined 15 success metrics for internal app size tools, and executed the development of a dashboard, guiding improvements in app health across Meta.}
+\resumeItem{Scoped and managed priorities, risks, timelines, and resource requirements for the project over a 12-week period.}
+\resumeItem{Enhanced collaboration by employing Agile methodologies, resulting in meeting 100\% of project deadlines.}
+\resumeItem{Provided data-driven insights, shaping the formation of OKRs, leading to a significant increase in productivity in performance, reliability, and efficiency.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Honda}{May 2020 -- Aug 2021}
+{Engineering Intern - IT Applications}{Alliston, ON}
+\resumeItemListStart
+\resumeItem{Facilitated a critical software migration project of over 500-line control processes through application configuration, QA testing, and Java debugging.}
+\resumeItem{Led a middleware migration project that cut engine factory downtime by 11 minutes daily, saving over \$100,000 annually.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Augmented Reality Creator}{}
+{TikTok Effect House}{}
+\resumeItemListStart
+\resumeItem{Achieved over 18 billion views and 2 billion likes on filters, ranking in the top 1\% of AR creators on TikTok.}
+\resumeItem{Developed campaigns reaching over 20 million impressions for multiple clients, consistently exceeding marketing targets.}
+\resumeItem{Utilized visual scripting, linear algebra, shaders, and 3D modelling to create captivating and immersive AR effects.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Vagon.tech}{}
+{Sustainable Carpooling Application}{}
+\resumeItemListStart
+\resumeItem{Built a website with a team of 4 within 32 hours, winning the Best Use of CockroachDB award at TOHacks.}
+\resumeItem{Implemented a scalable, decoupled, 3-tier architecture with a Nuxt.js frontend, Golang JSON REST API and Firebase backend, CockroachDB on Google Cloud storage, and deployment on Docker.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+\end{document}
